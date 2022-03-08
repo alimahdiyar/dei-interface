@@ -1,4 +1,7 @@
 module.exports = {
+  images: {
+    domains: ['assets.spookyswap.finance'],
+  },
   exportPathMap: async function () {
     return {
       '/convert': {

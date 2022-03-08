@@ -7,13 +7,13 @@ import DeusLogo from '/public/static/images/tokens/deus.svg'
 import { ExternalLink } from 'components/Link'
 
 const Container = styled.div`
-  display: flex;
+  /* display: flex;
   flex-flow: column nowrap;
   gap: 5px;
   overflow: visible;
   margin: 0 auto;
   margin-top: 75px;
-  width: clamp(250px, 90%, 512px);
+  width: clamp(250px, 90%, 512px); */
 
   ${({ theme }) => theme.mediaWidth.upToMedium`
     margin-top: 30px;

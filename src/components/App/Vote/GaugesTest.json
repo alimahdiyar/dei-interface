@@ -1,0 +1,740 @@
+[
+  {
+    "address": "0xB4658cBC3624f35ae1aFFFfe33a1173325f9761a",
+    "symbol": "sAMM-USDC/WFTM",
+    "decimals": 18,
+    "isStable": true,
+    "token0": {
+      "chainId": 250,
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "address": "0x04068DA6C83AFCFA0e13ba15A6696662335D5B75",
+      "decimals": 6,
+      "logoURI": "https://assets.spookyswap.finance/tokens/USDC.png",
+      "balance": "6.990214",
+      "isWhitelisted": true
+    },
+    "token1": {
+      "chainId": 250,
+      "name": "Wrapped FTM",
+      "symbol": "wFTM",
+      "address": "0x21be370D5312f44cB42ce377BC9b8a0cEF1A4C83",
+      "decimals": 18,
+      "logoURI": "https://assets.spookyswap.finance/tokens/wFTM.png",
+      "balance": "0.000000000000000000",
+      "isWhitelisted": true
+    },
+    "totalSupply": "0.000259249519544918",
+    "reserve0": "158940.985709",
+    "reserve1": "35870.843641255879271227",
+    "gauge": {
+      "address": "0x60a3706a58199Acf57D697C2d0Fd8aaE2f4caAB9",
+      "bribeAddress": "0xd527be8024897E4a126B98c1BFfCA9f338D66c43",
+      "decimals": 18,
+      "totalSupply": "0.000259193283407568",
+      "reserve0": "158906.508395",
+      "reserve1": "35863.062574994267435071",
+      "weight": "1438.318152711501456802",
+      "weightPercent": "0.00",
+      "bribes": [
+        {
+          "token": {
+            "chainId": 250,
+            "name": "USD Coin",
+            "symbol": "USDC",
+            "address": "0x04068DA6C83AFCFA0e13ba15A6696662335D5B75",
+            "decimals": 6,
+            "logoURI": "https://assets.spookyswap.finance/tokens/USDC.png",
+            "isWhitelisted": true
+          },
+          "rewardRate": "0.000030",
+          "rewardAmount": "18.144000"
+        },
+        {
+          "token": {
+            "chainId": 250,
+            "name": "Wrapped FTM",
+            "symbol": "wFTM",
+            "address": "0x21be370D5312f44cB42ce377BC9b8a0cEF1A4C83",
+            "decimals": 18,
+            "logoURI": "https://assets.spookyswap.finance/tokens/wFTM.png",
+            "isWhitelisted": true
+          },
+          "rewardRate": "0.000002715924851903",
+          "rewardAmount": "1.642591350430934400"
+        },
+        {
+          "token": {
+            "chainId": 250,
+            "name": "Charm Token",
+            "symbol": "CHARM",
+            "address": "0x248CB87DDA803028dfeaD98101C9465A2fbdA0d4",
+            "decimals": 18,
+            "logoURI": "https://assets.spookyswap.finance/tokens/CHARM.png",
+            "isWhitelisted": true
+          },
+          "rewardRate": "0.000001653439153439",
+          "rewardAmount": "0.999999999999907200"
+        },
+        {
+          "token": {
+            "chainId": 250,
+            "name": "Spell Token",
+            "symbol": "SPELL",
+            "address": "0x468003B688943977e6130F4F68F23aad939a1040",
+            "decimals": 18,
+            "logoURI": "https://assets.spookyswap.finance/tokens/SPELL.png",
+            "isWhitelisted": true
+          },
+          "rewardRate": "0.000001005574776323",
+          "rewardAmount": "0.608171624720150400"
+        },
+        {
+          "token": {
+            "chainId": 250,
+            "name": "SpookySwap",
+            "symbol": "BOO",
+            "address": "0x841FAD6EAe12c286d1Fd18d1d525DFfA75C7EFFE",
+            "decimals": 18,
+            "logoURI": "https://assets.spookyswap.finance/tokens/BOO.png",
+            "isWhitelisted": true
+          },
+          "rewardRate": "0.000128968253968253",
+          "rewardAmount": "77.999999999999414400"
+        }
+      ],
+      "bribesEarned": [
+        {
+          "earned": "0.000000"
+        },
+        {
+          "earned": "0.000000000000000000"
+        },
+        {
+          "earned": "0.000000000000000000"
+        },
+        {
+          "earned": "0.000000000000000000"
+        },
+        {
+          "earned": "0.000000000000000000"
+        }
+      ],
+      "balance": "0.000000000000000000"
+    },
+    "balance": "0.000000000000000000",
+    "claimable0": "0.000000",
+    "claimable1": "0.000000000000000000",
+    "gaugebribes": [
+      {
+        "token": {
+          "chainId": 250,
+          "name": "USD Coin",
+          "symbol": "USDC",
+          "address": "0x04068DA6C83AFCFA0e13ba15A6696662335D5B75",
+          "decimals": 6,
+          "logoURI": "https://assets.spookyswap.finance/tokens/USDC.png",
+          "isWhitelisted": true
+        },
+        "rewardRate": "0.000030",
+        "rewardAmount": "18.144000"
+      },
+      {
+        "token": {
+          "chainId": 250,
+          "name": "Wrapped FTM",
+          "symbol": "wFTM",
+          "address": "0x21be370D5312f44cB42ce377BC9b8a0cEF1A4C83",
+          "decimals": 18,
+          "logoURI": "https://assets.spookyswap.finance/tokens/wFTM.png",
+          "isWhitelisted": true
+        },
+        "rewardRate": "0.000002715924851903",
+        "rewardAmount": "1.642591350430934400"
+      },
+      {
+        "token": {
+          "chainId": 250,
+          "name": "Charm Token",
+          "symbol": "CHARM",
+          "address": "0x248CB87DDA803028dfeaD98101C9465A2fbdA0d4",
+          "decimals": 18,
+          "logoURI": "https://assets.spookyswap.finance/tokens/CHARM.png",
+          "isWhitelisted": true
+        },
+        "rewardRate": "0.000001653439153439",
+        "rewardAmount": "0.999999999999907200"
+      },
+      {
+        "token": {
+          "chainId": 250,
+          "name": "Spell Token",
+          "symbol": "SPELL",
+          "address": "0x468003B688943977e6130F4F68F23aad939a1040",
+          "decimals": 18,
+          "logoURI": "https://assets.spookyswap.finance/tokens/SPELL.png",
+          "isWhitelisted": true
+        },
+        "rewardRate": "0.000001005574776323",
+        "rewardAmount": "0.608171624720150400"
+      },
+      {
+        "token": {
+          "chainId": 250,
+          "name": "SpookySwap",
+          "symbol": "BOO",
+          "address": "0x841FAD6EAe12c286d1Fd18d1d525DFfA75C7EFFE",
+          "decimals": 18,
+          "logoURI": "https://assets.spookyswap.finance/tokens/BOO.png",
+          "isWhitelisted": true
+        },
+        "rewardRate": "0.000128968253968253",
+        "rewardAmount": "77.999999999999414400"
+      }
+    ]
+  },
+  {
+    "address": "0xC0240Ee4405f11EFb87A00B432A8be7b7Afc97CC",
+    "symbol": "sAMM-USDC/DAI",
+    "decimals": 18,
+    "isStable": true,
+    "token0": {
+      "chainId": 250,
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "address": "0x04068DA6C83AFCFA0e13ba15A6696662335D5B75",
+      "decimals": 6,
+      "logoURI": "https://assets.spookyswap.finance/tokens/USDC.png",
+      "balance": "6.990214",
+      "isWhitelisted": true
+    },
+    "token1": {
+      "chainId": 250,
+      "name": "Dai Stablecoin",
+      "symbol": "DAI",
+      "address": "0x8D11eC38a3EB5E956B052f67Da8Bdc9bef8Abf3E",
+      "decimals": 18,
+      "logoURI": "https://assets.spookyswap.finance/tokens/DAI.png",
+      "balance": "0.000000000000000000",
+      "isWhitelisted": true
+    },
+    "totalSupply": "3.618222824581518035",
+    "reserve0": "3436517.848157",
+    "reserve1": "3805212.264465027976117792",
+    "gauge": {
+      "address": "0x9C7EaC4b4a8d37fA9dE7e4cb81F0a99256C672d1",
+      "bribeAddress": "0x0260F72B0c2E65e26e19266A1F654f3623E83160",
+      "decimals": 18,
+      "totalSupply": "3.495207627222710585",
+      "reserve0": "3319680.400102",
+      "reserve1": "3675839.652439824655393189",
+      "weight": "3945.297865246134080754",
+      "weightPercent": "0.01",
+      "bribes": [
+        {
+          "token": {
+            "chainId": 250,
+            "name": "Dai Stablecoin",
+            "symbol": "DAI",
+            "address": "0x8D11eC38a3EB5E956B052f67Da8Bdc9bef8Abf3E",
+            "decimals": 18,
+            "logoURI": "https://assets.spookyswap.finance/tokens/DAI.png",
+            "isWhitelisted": true
+          },
+          "rewardRate": "0.001183682021477689",
+          "rewardAmount": "715.890886589706307200"
+        },
+        {
+          "token": {
+            "chainId": 250,
+            "name": "Charm Token",
+            "symbol": "CHARM",
+            "address": "0x248CB87DDA803028dfeaD98101C9465A2fbdA0d4",
+            "decimals": 18,
+            "logoURI": "https://assets.spookyswap.finance/tokens/CHARM.png",
+            "isWhitelisted": true
+          },
+          "rewardRate": "0.000001653439153439",
+          "rewardAmount": "0.999999999999907200"
+        },
+        {
+          "token": {
+            "chainId": 250,
+            "name": "USD Coin",
+            "symbol": "USDC",
+            "address": "0x04068DA6C83AFCFA0e13ba15A6696662335D5B75",
+            "decimals": 6,
+            "logoURI": "https://assets.spookyswap.finance/tokens/USDC.png",
+            "isWhitelisted": true
+          },
+          "rewardRate": "0.001169",
+          "rewardAmount": "707.011200"
+        },
+        {
+          "token": {
+            "chainId": 250,
+            "name": "Curve DAO",
+            "symbol": "CRV",
+            "address": "0x1E4F97b9f9F913c46F1632781732927B9019C68b",
+            "decimals": 18,
+            "logoURI": "https://assets.spookyswap.finance/tokens/CRV.png",
+            "isWhitelisted": true
+          },
+          "rewardRate": "0.000001064096889248",
+          "rewardAmount": "0.643565798617190400"
+        }
+      ],
+      "bribesEarned": [
+        {
+          "earned": "0.000000000000000000"
+        },
+        {
+          "earned": "0.000000000000000000"
+        },
+        {
+          "earned": "0.000000"
+        },
+        {
+          "earned": "0.000000000000000000"
+        }
+      ],
+      "balance": "0.000000000000000000"
+    },
+    "balance": "0.000000000000000000",
+    "claimable0": "0.000000",
+    "claimable1": "0.000000000000000000",
+    "gaugebribes": [
+      {
+        "token": {
+          "chainId": 250,
+          "name": "Dai Stablecoin",
+          "symbol": "DAI",
+          "address": "0x8D11eC38a3EB5E956B052f67Da8Bdc9bef8Abf3E",
+          "decimals": 18,
+          "logoURI": "https://assets.spookyswap.finance/tokens/DAI.png",
+          "isWhitelisted": true
+        },
+        "rewardRate": "0.001183682021477689",
+        "rewardAmount": "715.890886589706307200"
+      },
+      {
+        "token": {
+          "chainId": 250,
+          "name": "Charm Token",
+          "symbol": "CHARM",
+          "address": "0x248CB87DDA803028dfeaD98101C9465A2fbdA0d4",
+          "decimals": 18,
+          "logoURI": "https://assets.spookyswap.finance/tokens/CHARM.png",
+          "isWhitelisted": true
+        },
+        "rewardRate": "0.000001653439153439",
+        "rewardAmount": "0.999999999999907200"
+      },
+      {
+        "token": {
+          "chainId": 250,
+          "name": "USD Coin",
+          "symbol": "USDC",
+          "address": "0x04068DA6C83AFCFA0e13ba15A6696662335D5B75",
+          "decimals": 6,
+          "logoURI": "https://assets.spookyswap.finance/tokens/USDC.png",
+          "isWhitelisted": true
+        },
+        "rewardRate": "0.001169",
+        "rewardAmount": "707.011200"
+      },
+      {
+        "token": {
+          "chainId": 250,
+          "name": "Curve DAO",
+          "symbol": "CRV",
+          "address": "0x1E4F97b9f9F913c46F1632781732927B9019C68b",
+          "decimals": 18,
+          "logoURI": "https://assets.spookyswap.finance/tokens/CRV.png",
+          "isWhitelisted": true
+        },
+        "rewardRate": "0.000001064096889248",
+        "rewardAmount": "0.643565798617190400"
+      }
+    ]
+  },
+  {
+    "address": "0xd6c49630aA6174Ea80cA784147f795F86a3f28aa",
+    "symbol": "sAMM-WFTM/MIM",
+    "decimals": 18,
+    "isStable": true,
+    "token0": {
+      "chainId": 250,
+      "name": "Wrapped FTM",
+      "symbol": "wFTM",
+      "address": "0x21be370D5312f44cB42ce377BC9b8a0cEF1A4C83",
+      "decimals": 18,
+      "logoURI": "https://assets.spookyswap.finance/tokens/wFTM.png",
+      "balance": "0.000000000000000000",
+      "isWhitelisted": true
+    },
+    "token1": {
+      "chainId": 250,
+      "name": "Magic Internet Money",
+      "symbol": "MIM",
+      "address": "0x82f0B8B456c1A451378467398982d4834b6829c1",
+      "decimals": 18,
+      "logoURI": "https://assets.spookyswap.finance/tokens/MIM.png",
+      "balance": "0.000000000000000000",
+      "isWhitelisted": true
+    },
+    "totalSupply": "8196.165468880662291033",
+    "reserve0": "3134.920168420633026522",
+    "reserve1": "13995.721756691680968617",
+    "gauge": {
+      "address": "0x8C45E7D401c92E38bb853947b3549F341db12D87",
+      "bribeAddress": "0x38Eb58D276bD74D8341b16150EE12236cC627A9D",
+      "decimals": 18,
+      "totalSupply": "8186.206310417551081803",
+      "reserve0": "3131.110927764737850760",
+      "reserve1": "13978.715558938630808043",
+      "weight": "34.947032552895243507",
+      "weightPercent": "0.00",
+      "bribes": [
+        {
+          "token": {
+            "chainId": 250,
+            "name": "Charm Token",
+            "symbol": "CHARM",
+            "address": "0x248CB87DDA803028dfeaD98101C9465A2fbdA0d4",
+            "decimals": 18,
+            "logoURI": "https://assets.spookyswap.finance/tokens/CHARM.png",
+            "isWhitelisted": true
+          },
+          "rewardRate": "0.000165343915343915",
+          "rewardAmount": "99.999999999999792000"
+        },
+        {
+          "token": {
+            "chainId": 250,
+            "name": "Wrapped FTM",
+            "symbol": "wFTM",
+            "address": "0x21be370D5312f44cB42ce377BC9b8a0cEF1A4C83",
+            "decimals": 18,
+            "logoURI": "https://assets.spookyswap.finance/tokens/wFTM.png",
+            "isWhitelisted": true
+          },
+          "rewardRate": "0.000000653135447842",
+          "rewardAmount": "0.395016318854841600"
+        },
+        {
+          "token": {
+            "chainId": 250,
+            "name": "Magic Internet Money",
+            "symbol": "MIM",
+            "address": "0x82f0B8B456c1A451378467398982d4834b6829c1",
+            "decimals": 18,
+            "logoURI": "https://assets.spookyswap.finance/tokens/MIM.png",
+            "isWhitelisted": true
+          },
+          "rewardRate": "0.000001304308500201",
+          "rewardAmount": "0.788845780921564800"
+        }
+      ],
+      "bribesEarned": [
+        {
+          "earned": "0.000000000000000000"
+        },
+        {
+          "earned": "0.000000000000000000"
+        },
+        {
+          "earned": "0.000000000000000000"
+        }
+      ],
+      "balance": "0.000000000000000000"
+    },
+    "balance": "0.000000000000000000",
+    "claimable0": "0.000000000000000000",
+    "claimable1": "0.000000000000000000",
+    "gaugebribes": [
+      {
+        "token": {
+          "chainId": 250,
+          "name": "Charm Token",
+          "symbol": "CHARM",
+          "address": "0x248CB87DDA803028dfeaD98101C9465A2fbdA0d4",
+          "decimals": 18,
+          "logoURI": "https://assets.spookyswap.finance/tokens/CHARM.png",
+          "isWhitelisted": true
+        },
+        "rewardRate": "0.000165343915343915",
+        "rewardAmount": "99.999999999999792000"
+      },
+      {
+        "token": {
+          "chainId": 250,
+          "name": "Wrapped FTM",
+          "symbol": "wFTM",
+          "address": "0x21be370D5312f44cB42ce377BC9b8a0cEF1A4C83",
+          "decimals": 18,
+          "logoURI": "https://assets.spookyswap.finance/tokens/wFTM.png",
+          "isWhitelisted": true
+        },
+        "rewardRate": "0.000000653135447842",
+        "rewardAmount": "0.395016318854841600"
+      },
+      {
+        "token": {
+          "chainId": 250,
+          "name": "Magic Internet Money",
+          "symbol": "MIM",
+          "address": "0x82f0B8B456c1A451378467398982d4834b6829c1",
+          "decimals": 18,
+          "logoURI": "https://assets.spookyswap.finance/tokens/MIM.png",
+          "isWhitelisted": true
+        },
+        "rewardRate": "0.000001304308500201",
+        "rewardAmount": "0.788845780921564800"
+      }
+    ]
+  },
+  {
+    "address": "0xDD56B20073E4cc049DC93EF6425C27F047b4Ae93",
+    "symbol": "vAMM-WFTM/BOO",
+    "decimals": 18,
+    "isStable": false,
+    "token0": {
+      "chainId": 250,
+      "name": "Wrapped FTM",
+      "symbol": "wFTM",
+      "address": "0x21be370D5312f44cB42ce377BC9b8a0cEF1A4C83",
+      "decimals": 18,
+      "logoURI": "https://assets.spookyswap.finance/tokens/wFTM.png",
+      "balance": "0.000000000000000000",
+      "isWhitelisted": true
+    },
+    "token1": {
+      "chainId": 250,
+      "name": "SpookySwap",
+      "symbol": "BOO",
+      "address": "0x841FAD6EAe12c286d1Fd18d1d525DFfA75C7EFFE",
+      "decimals": 18,
+      "logoURI": "https://assets.spookyswap.finance/tokens/BOO.png",
+      "balance": "0.000000000000000000",
+      "isWhitelisted": true
+    },
+    "totalSupply": "4142.406495494866476000",
+    "reserve0": "13775.111284788855932377",
+    "reserve1": "1259.263370513024743392",
+    "gauge": {
+      "address": "0x10241914C86A2783bEf22D458ff65B4762c4238a",
+      "bribeAddress": "0xaC5f7d79F9b0AadA33F37c6ab154592191a171Ed",
+      "decimals": 18,
+      "totalSupply": "4140.485914905230900988",
+      "reserve0": "13768.724608014761387134",
+      "reserve1": "1258.679527090300131695",
+      "weight": "329.830850635212178857",
+      "weightPercent": "0.00",
+      "bribes": [
+        {
+          "token": {
+            "chainId": 250,
+            "name": "USD Coin",
+            "symbol": "USDC",
+            "address": "0x04068DA6C83AFCFA0e13ba15A6696662335D5B75",
+            "decimals": 6,
+            "logoURI": "https://assets.spookyswap.finance/tokens/USDC.png",
+            "isWhitelisted": true
+          },
+          "rewardRate": "0.000334",
+          "rewardAmount": "202.003200"
+        },
+        {
+          "token": {
+            "chainId": 250,
+            "name": "Wrapped FTM",
+            "symbol": "wFTM",
+            "address": "0x21be370D5312f44cB42ce377BC9b8a0cEF1A4C83",
+            "decimals": 18,
+            "logoURI": "https://assets.spookyswap.finance/tokens/wFTM.png",
+            "isWhitelisted": true
+          },
+          "rewardRate": "0.000008930200056668",
+          "rewardAmount": "5.400984994272806400"
+        },
+        {
+          "token": {
+            "chainId": 250,
+            "name": "SpookySwap",
+            "symbol": "BOO",
+            "address": "0x841FAD6EAe12c286d1Fd18d1d525DFfA75C7EFFE",
+            "decimals": 18,
+            "logoURI": "https://assets.spookyswap.finance/tokens/BOO.png",
+            "isWhitelisted": true
+          },
+          "rewardRate": "0.000000694954527328",
+          "rewardAmount": "0.420308498127974400"
+        }
+      ],
+      "bribesEarned": [
+        {
+          "earned": "0.000000"
+        },
+        {
+          "earned": "0.000000000000000000"
+        },
+        {
+          "earned": "0.000000000000000000"
+        }
+      ],
+      "balance": "0.000000000000000000"
+    },
+    "balance": "0.000000000000000000",
+    "claimable0": "0.000000000000000000",
+    "claimable1": "0.000000000000000000",
+    "gaugebribes": [
+      {
+        "token": {
+          "chainId": 250,
+          "name": "USD Coin",
+          "symbol": "USDC",
+          "address": "0x04068DA6C83AFCFA0e13ba15A6696662335D5B75",
+          "decimals": 6,
+          "logoURI": "https://assets.spookyswap.finance/tokens/USDC.png",
+          "isWhitelisted": true
+        },
+        "rewardRate": "0.000334",
+        "rewardAmount": "202.003200"
+      },
+      {
+        "token": {
+          "chainId": 250,
+          "name": "Wrapped FTM",
+          "symbol": "wFTM",
+          "address": "0x21be370D5312f44cB42ce377BC9b8a0cEF1A4C83",
+          "decimals": 18,
+          "logoURI": "https://assets.spookyswap.finance/tokens/wFTM.png",
+          "isWhitelisted": true
+        },
+        "rewardRate": "0.000008930200056668",
+        "rewardAmount": "5.400984994272806400"
+      },
+      {
+        "token": {
+          "chainId": 250,
+          "name": "SpookySwap",
+          "symbol": "BOO",
+          "address": "0x841FAD6EAe12c286d1Fd18d1d525DFfA75C7EFFE",
+          "decimals": 18,
+          "logoURI": "https://assets.spookyswap.finance/tokens/BOO.png",
+          "isWhitelisted": true
+        },
+        "rewardRate": "0.000000694954527328",
+        "rewardAmount": "0.420308498127974400"
+      }
+    ]
+  },
+  {
+    "address": "0x55C070466Da687a6E1bDdB889ba09873D8f4Fb2A",
+    "symbol": "sAMM-USDC/miMATIC",
+    "decimals": 18,
+    "isStable": true,
+    "token0": {
+      "chainId": 250,
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "address": "0x04068DA6C83AFCFA0e13ba15A6696662335D5B75",
+      "decimals": 6,
+      "logoURI": "https://assets.spookyswap.finance/tokens/USDC.png",
+      "balance": "6.990214",
+      "isWhitelisted": true
+    },
+    "token1": {
+      "chainId": 250,
+      "name": "miMATIC",
+      "symbol": "MAI",
+      "address": "0xfB98B335551a418cD0737375a2ea0ded62Ea213b",
+      "decimals": 18,
+      "logoURI": "https://assets.spookyswap.finance/tokens/MAI.png",
+      "balance": "0.000000000000000000",
+      "isWhitelisted": true
+    },
+    "totalSupply": "0.008842177701651546",
+    "reserve0": "7859.761289",
+    "reserve1": "9825.269519513240436132",
+    "gauge": {
+      "address": "0x4CF732Ae1fCAd43976aCC369CB3dc58826345184",
+      "bribeAddress": "0x06C64D14901fCe8480F1b874E4c5C25581051694",
+      "decimals": 18,
+      "totalSupply": "0.008807868593596715",
+      "reserve0": "7829.264119",
+      "reserve1": "9787.145853037972218247",
+      "weight": "17.098803321074757646",
+      "weightPercent": "0.00",
+      "bribes": [
+        {
+          "token": {
+            "chainId": 250,
+            "name": "USD Coin",
+            "symbol": "USDC",
+            "address": "0x04068DA6C83AFCFA0e13ba15A6696662335D5B75",
+            "decimals": 6,
+            "logoURI": "https://assets.spookyswap.finance/tokens/USDC.png",
+            "isWhitelisted": true
+          },
+          "rewardRate": "0.000029",
+          "rewardAmount": "17.539200"
+        },
+        {
+          "token": {
+            "chainId": 250,
+            "name": "miMATIC",
+            "symbol": "MAI",
+            "address": "0xfB98B335551a418cD0737375a2ea0ded62Ea213b",
+            "decimals": 18,
+            "logoURI": "https://assets.spookyswap.finance/tokens/MAI.png",
+            "isWhitelisted": true
+          },
+          "rewardRate": "0.000029087473007395",
+          "rewardAmount": "17.592103674872496000"
+        }
+      ],
+      "bribesEarned": [
+        {
+          "earned": "0.000000"
+        },
+        {
+          "earned": "0.000000000000000000"
+        }
+      ],
+      "balance": "0.000000000000000000"
+    },
+    "balance": "0.000000000000000000",
+    "claimable0": "0.000000",
+    "claimable1": "0.000000000000000000",
+    "gaugebribes": [
+      {
+        "token": {
+          "chainId": 250,
+          "name": "USD Coin",
+          "symbol": "USDC",
+          "address": "0x04068DA6C83AFCFA0e13ba15A6696662335D5B75",
+          "decimals": 6,
+          "logoURI": "https://assets.spookyswap.finance/tokens/USDC.png",
+          "isWhitelisted": true
+        },
+        "rewardRate": "0.000029",
+        "rewardAmount": "17.539200"
+      },
+      {
+        "token": {
+          "chainId": 250,
+          "name": "miMATIC",
+          "symbol": "MAI",
+          "address": "0xfB98B335551a418cD0737375a2ea0ded62Ea213b",
+          "decimals": 18,
+          "logoURI": "https://assets.spookyswap.finance/tokens/MAI.png",
+          "isWhitelisted": true
+        },
+        "rewardRate": "0.000029087473007395",
+        "rewardAmount": "17.592103674872496000"
+      }
+    ]
+  }
+]
