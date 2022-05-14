@@ -2,6 +2,7 @@ import { Token } from '@sushiswap/core-sdk'
 
 import { CollateralType, LenderVersion, UnserializedBorrowPool } from 'state/borrow/reducer'
 import { SupportedChainId } from 'constants/chains'
+import { veLender } from 'constants/addresses'
 
 // TODO SWITCH THIS TOKEN WITH THE BELOW COMMENTED OUT TOKEN FOR PRODUCTION RELEASE
 export const DEI_TOKEN_TEST = new Token(
@@ -64,6 +65,32 @@ export const BorrowPools: UnserializedBorrowPool[] = [
     lpPool: '0x5821573d8F04947952e76d94f3ABC6d7b43bF8d0',
     mintHelper: MintHelper.MAIN,
     type: CollateralType.SOLIDEX,
+    liquidationFee: 5, // 5%
+  },
+  {
+    contract: new Token(
+      SupportedChainId.FANTOM,
+      '0xff78b8afE09a58DC8886720CB3D5D8190c830672', //venft contract
+      18,
+      'tfSolid',
+      'tfSolid'
+    ),
+    dei: DEI_TOKEN,
+    token0: new Token(SupportedChainId.FANTOM, '0xde12c7959e1a72bbe8a5f7a1dc8f8eef9ab011b3', 18, 'DEI', 'DEI'),
+    token1: new Token(
+      SupportedChainId.FANTOM,
+      '0xff78b8afE09a58DC8886720CB3D5D8190c830672', //venft contract
+      18,
+      'tfSolid',
+      'tfSolid'
+    ),
+    version: LenderVersion.VENFT,
+    composition: 'tfSolid',
+    oracle: '0x7D907cF11a3F23d42c5C58426C3b8021F654964C', //fake
+    generalLender: veLender[SupportedChainId.FANTOM],
+    lpPool: '0x5821573d8F04947952e76d94f3ABC6d7b43bF8d0', //fake
+    mintHelper: MintHelper.MAIN,
+    type: CollateralType.VENFT,
     liquidationFee: 5, // 5%
   },
   //*********V3 TEST LENDER************** //

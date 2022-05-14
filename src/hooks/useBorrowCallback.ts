@@ -4,7 +4,7 @@ import { Currency, CurrencyAmount, NativeCurrency, Token, ZERO } from '@sushiswa
 import BigNumber from 'bignumber.js'
 
 import { useTransactionAdder } from 'state/transactions/hooks'
-import { BorrowAction, BorrowPool, LenderVersion, TypedField, OraclePairs } from 'state/borrow/reducer'
+import { BorrowAction, BorrowPool, LenderVersion, OraclePairs, TypedField } from 'state/borrow/reducer'
 import { useUserPoolData } from 'hooks/usePoolData'
 import { BorrowClient } from 'lib/muon'
 
@@ -61,7 +61,7 @@ export default function useBorrowCallback(
       if (action === BorrowAction.BORROW && typedField === TypedField.COLLATERAL) {
         if (!collateralAmount) throw new Error('Missing collateralAmount.')
         args = [account, toHex(collateralAmount.quotient)]
-        methodName = 'addCollateral'
+        methodName = pool.version === LenderVersion.VENFT ? 'userAddCollateral' : 'addCollateral'
       } else if (action === BorrowAction.REPAY && typedField === TypedField.COLLATERAL) {
         if (!collateralAmount) throw new Error('Missing collateralAmount.')
         args = [account, toHex(collateralAmount.quotient)]

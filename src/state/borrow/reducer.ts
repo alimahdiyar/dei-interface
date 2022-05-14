@@ -16,6 +16,8 @@ export enum LenderVersion {
   V1 = 'v1',
   V2 = 'v2',
   V3 = 'v3', //real general lender
+
+  VENFT = 'VENFT',
 }
 
 export enum HealthType {
@@ -29,6 +31,7 @@ export enum HealthType {
 export enum CollateralType {
   SOLIDEX = 'Solidex LP Token',
   OXDAO = '0xDAO LP Token',
+  VENFT = 'veNFT LP Token',
 }
 
 export type OraclePairs = {
@@ -49,6 +52,7 @@ export interface PendingBorrowPool {
   type: CollateralType
   pending: boolean
 }
+
 export interface UnserializedBorrowPool {
   id?: number
   contract: Token
