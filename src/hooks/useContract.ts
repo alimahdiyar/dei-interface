@@ -17,6 +17,7 @@ import OXDAO_HOLDER_FACTORY_ABI from 'constants/abi/OXDAO_HOLDER_FACTORY.json'
 import VEDEUS_ABI from 'constants/abi/VEDEUS.json'
 import VENFT_ABI from 'constants/abi/veNFT.json'
 import VAULT_ABI from 'constants/abi/Vault.json'
+import VELENDER_ABI from 'constants/abi/veLender.json'
 import REIMBURSE_ABI from 'constants/abi/REIMBURSE.json'
 import BASE_V1_FACTORY_ABI from 'constants/abi/BASE_V1_FACTORY.json'
 import BASE_V1_PAIR_ABI from 'constants/abi/BASE_V1_PAIR.json'
@@ -28,18 +29,19 @@ import BASE_V1_MINTER_ABI from 'constants/abi/BASE_V1_MINTER.json'
 import { Providers } from 'constants/providers'
 import {
   BaseV1Factory,
+  BaseV1Minter,
   BaseV1Voter,
+  GeneralLenderOracle,
   HolderManager,
   Multicall2,
+  OxDaoHolderFactory,
   Reimburse,
   SolidexLpDepositor,
   Vault,
   veDEUS,
+  veLender,
   veNFT,
   ZERO_ADDRESS,
-  BaseV1Minter,
-  OxDaoHolderFactory,
-  GeneralLenderOracle,
 } from 'constants/addresses'
 import { HolderABI, LenderABI } from 'constants/abi'
 import { BorrowPool } from 'state/borrow/reducer'
@@ -130,6 +132,12 @@ export function useVaultContract() {
   const { chainId } = useWeb3React()
   const address = useMemo(() => (chainId ? Vault[chainId] : undefined), [chainId])
   return useContract(address, VAULT_ABI)
+}
+
+export function useVeLenderContract() {
+  const { chainId } = useWeb3React()
+  const address = useMemo(() => (chainId ? veLender[chainId] : undefined), [chainId])
+  return useContract(address, VELENDER_ABI)
 }
 
 export function useOracleContract(pool: BorrowPool) {

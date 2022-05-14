@@ -22,6 +22,10 @@ export const Vault: AddressMap = {
   [SupportedChainId.FANTOM]: '0xD3C361D8DCdCbB459C4e826E67Ef48962cF6bE3a',
 }
 
+export const veLender: AddressMap = {
+  [SupportedChainId.FANTOM]: '0x4123EF5e6C8597C6D3b83C72ff9DD89Db81E9DEA',
+}
+
 export const BaseV1Factory: AddressMap = {
   [SupportedChainId.FANTOM]: '0x3faab499b519fdc5819e3d7ed0c26111904cbc28',
 }
